@@ -14,9 +14,18 @@
 		5C46A8011CB46E6300E2F72F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C46A7FF1CB46E6300E2F72F /* Main.storyboard */; };
 		5C46A8031CB46E6300E2F72F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C46A8021CB46E6300E2F72F /* Assets.xcassets */; };
 		5C46A8061CB46E6300E2F72F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C46A8041CB46E6300E2F72F /* LaunchScreen.storyboard */; };
+		5C7B18971CB47F9700566523 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7B18961CB47F9700566523 /* MapKit.framework */; };
+		5C84D7931CB704A800DF2FE4 /* PafModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5C84D7911CB704A800DF2FE4 /* PafModel.xcdatamodeld */; };
+		5C84D7A71CB70AFC00DF2FE4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C84D7A61CB70AFC00DF2FE4 /* CoreData.framework */; };
+		8E1048D0A515912B0CD439C8 /* Pods_Potes_au_Feu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4731015F183417DB64CEBD95 /* Pods_Potes_au_Feu.framework */; };
+		E97C63C91CB6C084009D61EB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E97C63C81CB6C084009D61EB /* DetailViewController.m */; };
+		E9B038721CC6831600CB5C54 /* JosefinSlab-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E9B038711CC6831600CB5C54 /* JosefinSlab-SemiBold.ttf */; };
+		E9CED43D1CBFFF6D00BE6DB0 /* PostModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E9CED43C1CBFFF6D00BE6DB0 /* PostModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DC4DDA92667E60B2192B14E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4731015F183417DB64CEBD95 /* Pods_Potes_au_Feu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Potes_au_Feu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C46A7F01CB46E6300E2F72F /* Potes au Feu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Potes au Feu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C46A7F41CB46E6300E2F72F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C46A7F61CB46E6300E2F72F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +38,18 @@
 		5C46A8021CB46E6300E2F72F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C46A8051CB46E6300E2F72F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5C46A8071CB46E6300E2F72F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C7B18961CB47F9700566523 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5C84D7921CB704A800DF2FE4 /* PafModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PafModel.xcdatamodel; sourceTree = "<group>"; };
+		5C84D7A61CB70AFC00DF2FE4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8E5F431B04A4FAF256DA34BA /* Pods-Potes au Feu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potes au Feu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Potes au Feu/Pods-Potes au Feu.debug.xcconfig"; sourceTree = "<group>"; };
+		8FA8CE9639916F7514DB4629 /* Pods-Potes au Feu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Potes au Feu.release.xcconfig"; path = "Pods/Target Support Files/Pods-Potes au Feu/Pods-Potes au Feu.release.xcconfig"; sourceTree = "<group>"; };
+		E963D7C71CB54B910075A47F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E9786B721CB54094004C8FE6 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		E97C63C71CB6C084009D61EB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		E97C63C81CB6C084009D61EB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E9B038711CC6831600CB5C54 /* JosefinSlab-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JosefinSlab-SemiBold.ttf"; sourceTree = "<group>"; };
+		E9CED43B1CBFFF6D00BE6DB0 /* PostModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostModel.h; sourceTree = "<group>"; };
+		E9CED43C1CBFFF6D00BE6DB0 /* PostModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +57,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C84D7A71CB70AFC00DF2FE4 /* CoreData.framework in Frameworks */,
+				5C7B18971CB47F9700566523 /* MapKit.framework in Frameworks */,
+				8E1048D0A515912B0CD439C8 /* Pods_Potes_au_Feu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F0A287D05EA649386329E47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E5F431B04A4FAF256DA34BA /* Pods-Potes au Feu.debug.xcconfig */,
+				8FA8CE9639916F7514DB4629 /* Pods-Potes au Feu.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		5C46A7E71CB46E6300E2F72F = {
 			isa = PBXGroup;
 			children = (
 				5C46A7F21CB46E6300E2F72F /* Potes au Feu */,
 				5C46A7F11CB46E6300E2F72F /* Products */,
+				1F0A287D05EA649386329E47 /* Pods */,
+				A4FD71489B7D7408391ED64B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +100,8 @@
 				5C46A7F71CB46E6300E2F72F /* AppDelegate.m */,
 				5C46A7F91CB46E6300E2F72F /* FirstViewController.h */,
 				5C46A7FA1CB46E6300E2F72F /* FirstViewController.m */,
+				E97C63C71CB6C084009D61EB /* DetailViewController.h */,
+				E97C63C81CB6C084009D61EB /* DetailViewController.m */,
 				5C46A7FC1CB46E6300E2F72F /* SecondViewController.h */,
 				5C46A7FD1CB46E6300E2F72F /* SecondViewController.m */,
 				5C46A7FF1CB46E6300E2F72F /* Main.storyboard */,
@@ -72,6 +109,9 @@
 				5C46A8041CB46E6300E2F72F /* LaunchScreen.storyboard */,
 				5C46A8071CB46E6300E2F72F /* Info.plist */,
 				5C46A7F31CB46E6300E2F72F /* Supporting Files */,
+				5C84D7911CB704A800DF2FE4 /* PafModel.xcdatamodeld */,
+				E9CED43B1CBFFF6D00BE6DB0 /* PostModel.h */,
+				E9CED43C1CBFFF6D00BE6DB0 /* PostModel.m */,
 			);
 			path = "Potes au Feu";
 			sourceTree = "<group>";
@@ -79,9 +119,31 @@
 		5C46A7F31CB46E6300E2F72F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E9B0386C1CC67E6100CB5C54 /* fonts */,
 				5C46A7F41CB46E6300E2F72F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4FD71489B7D7408391ED64B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C84D7A61CB70AFC00DF2FE4 /* CoreData.framework */,
+				E963D7C71CB54B910075A47F /* SystemConfiguration.framework */,
+				E9786B721CB54094004C8FE6 /* AFNetworking.framework */,
+				5C7B18961CB47F9700566523 /* MapKit.framework */,
+				1DC4DDA92667E60B2192B14E /* libPods.a */,
+				4731015F183417DB64CEBD95 /* Pods_Potes_au_Feu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9B0386C1CC67E6100CB5C54 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E9B038711CC6831600CB5C54 /* JosefinSlab-SemiBold.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,9 +153,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C46A80A1CB46E6300E2F72F /* Build configuration list for PBXNativeTarget "Potes au Feu" */;
 			buildPhases = (
+				9F6690937A6AA7936FF7D6F2 /* Check Pods Manifest.lock */,
 				5C46A7EC1CB46E6300E2F72F /* Sources */,
 				5C46A7ED1CB46E6300E2F72F /* Frameworks */,
 				5C46A7EE1CB46E6300E2F72F /* Resources */,
+				981AF24279CD79B9201DCC42 /* Embed Pods Frameworks */,
+				249F1FCB67D6E29AB2146C52 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -115,6 +180,12 @@
 				TargetAttributes = {
 					5C46A7EF1CB46E6300E2F72F = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 533ANVP95C;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -144,20 +215,72 @@
 				5C46A8061CB46E6300E2F72F /* LaunchScreen.storyboard in Resources */,
 				5C46A8031CB46E6300E2F72F /* Assets.xcassets in Resources */,
 				5C46A8011CB46E6300E2F72F /* Main.storyboard in Resources */,
+				E9B038721CC6831600CB5C54 /* JosefinSlab-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		249F1FCB67D6E29AB2146C52 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Potes au Feu/Pods-Potes au Feu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		981AF24279CD79B9201DCC42 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Potes au Feu/Pods-Potes au Feu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F6690937A6AA7936FF7D6F2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C46A7EC1CB46E6300E2F72F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97C63C91CB6C084009D61EB /* DetailViewController.m in Sources */,
 				5C46A7FE1CB46E6300E2F72F /* SecondViewController.m in Sources */,
 				5C46A7F81CB46E6300E2F72F /* AppDelegate.m in Sources */,
 				5C46A7FB1CB46E6300E2F72F /* FirstViewController.m in Sources */,
+				E9CED43D1CBFFF6D00BE6DB0 /* PostModel.m in Sources */,
 				5C46A7F51CB46E6300E2F72F /* main.m in Sources */,
+				5C84D7931CB704A800DF2FE4 /* PafModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,23 +390,41 @@
 		};
 		5C46A80B1CB46E6300E2F72F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E5F431B04A4FAF256DA34BA /* Pods-Potes au Feu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Potes au Feu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrobin.Potes-au-Feu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		5C46A80C1CB46E6300E2F72F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA8CE9639916F7514DB4629 /* Pods-Potes au Feu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				INFOPLIST_FILE = "Potes au Feu/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.thomasrobin.Potes-au-Feu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -306,8 +447,22 @@
 				5C46A80C1CB46E6300E2F72F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5C84D7911CB704A800DF2FE4 /* PafModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5C84D7921CB704A800DF2FE4 /* PafModel.xcdatamodel */,
+			);
+			currentVersion = 5C84D7921CB704A800DF2FE4 /* PafModel.xcdatamodel */;
+			path = PafModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5C46A7E81CB46E6300E2F72F /* Project object */;
 }

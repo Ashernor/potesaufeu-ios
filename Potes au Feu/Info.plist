@@ -2,8 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>JosefinSlab-SemiBold.ttf</string>
+	</array>
+	<key>MGLMapboxAccessToken</key>
+	<string>pk.eyJ1Ijoic3lnbmkiLCJhIjoiY2lsbGM4cGZmMDAydHVnbHpmMG8xcTluYyJ9.R19fLnwOcHUaIayLCW4b3Q</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>fr</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -39,6 +45,13 @@
 			<key>Translucent</key>
 			<false/>
 		</dict>
+	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>LOL</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
 	</dict>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

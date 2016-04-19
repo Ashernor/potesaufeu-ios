@@ -1,0 +1,6 @@
+framework module Pods_Potes_au_Feu {
+  umbrella header "Pods-Potes au Feu-umbrella.h"
+
+  export *
+  module * { export * }
+}

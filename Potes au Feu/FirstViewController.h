@@ -7,8 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PostModel.h"
+@import Mapbox;
 
 @interface FirstViewController : UIViewController
+
+@property (strong, nonatomic) IBOutlet MGLMapView *mapBox;
+@property (strong, nonatomic) NSArray<PostModel *> *posts;
 
 
 @end
